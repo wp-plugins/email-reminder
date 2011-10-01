@@ -43,3 +43,8 @@ But, there is a way to work around this problem by leveraging real Linux cron in
 
 = 0.1 =
 * Original Version.
+
+== Upgrade Notice ==
+
+= 0.1 =
+Original version
