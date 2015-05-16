@@ -3,8 +3,8 @@ Contributors: pogidude
 Donate link: http://pogidude.com/donate/
 Tags: email reminder, reminder
 Requires at least: 3.0
-Tested up to: 3.8.1
-Stable tag: 1.2
+Tested up to: 4.2.2
+Stable tag: 1.3
 
 Schedule email reminders. Enter your reminder, where you'd like to email the reminder to, and when you'd like the reminder to be sent.
 
@@ -15,6 +15,11 @@ This plugin allows you to send email reminders to any email address on the date 
 That's it.
 
 [Email Reminder Plugin Page](http://pogidude.com/email-reminder/)
+
+= Translating and Contributing =
+Interested in translating this plugin to your language? Grab the [development version](http://downloads.wordpress.org/plugin/email-reminder.zip) where you will find an up to date email-reminder.pot inside the *languages* directory. Send any translation files to ryann @ pogidude.com and thank you!
+
+A [GIT repository](https://github.com/pogidude/email-reminder) is also available if you'd like to submit a patch.
 
 If you enjoyed using Email Reminder and find it useful, please consider [__making a donation__](http://pogidude.com/donate/). Your donation will help encourage and support the plugin's continued development and better user support.
 
@@ -44,6 +49,11 @@ Check in your spam folder. Sometimes, email messages are marked as spam by your 
 2. Screenshot of list of scheduled reminders
 
 == Changelog ==
+= 1.3 =
+*2015-05-16*
+* Make strings translateable
+* Add NL .mo file
+* Add .pot file
 
 = 1.2 =
 * UI updates

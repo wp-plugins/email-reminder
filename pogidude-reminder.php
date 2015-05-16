@@ -3,7 +3,7 @@
 Plugin Name: Email Reminder
 Plugin URI: http://pogidude.com/email-reminder/
 Description: Schedules email reminders. Enter your reminder, where you'd like to email the reminder to, and when you'd like the reminder to be sent.
-Version: 1.2
+Version: 1.3
 License: GPLv2
 Author: Ryann Micua
 Author URI: http://pogidude.com/about/
@@ -35,6 +35,9 @@ require_once( trailingslashit( PDER_CLASSES ) . 'PDER_Base.php' );
 
 /* View Cron Events Page */
 //require_once( trailingslashit( PDER_INC_DIR ) . 'admin-cron-events.php' );
+
+/* Load language internationalizing */
+load_plugin_textdomain('email-reminder', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
 /* activation/deactivation stuff */
 register_activation_hook( __FILE__, array('PDER_Base','on_activate' ) );
